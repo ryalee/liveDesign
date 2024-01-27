@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif; 
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+  /* align-items: center; */
+}
+
+.logo {
+  padding: 10px;
+}
+
+.logo h1 {
+  font-family: "Forum", serif;
+  border-left: 2px solid #000;
+  padding-left: 10px;
+  font-size: 24pt;
+}
+
+.menu {
+  display: flex;
+  margin-top: 80px;
+  width: 410px;
+  margin-left: -140px;
+  padding: 10px;
+}
+
+.menuItem {
+  text-decoration: none;
+  list-style: none;
+  margin: 10px;
+  font-size: 9pt;
+  color: #000;
+  font-weight: 500;
+}
+
+.iconsMenu {
+  display: flex;
+  position: absolute;
+  margin-left: -180px;
+  margin-top: 20px;
+}
+
+.iconItem {
+  list-style: none;
+  margin: 10px;
+  font-size: 11pt;
+  color: #000;
+}
+
+.hero {
+  margin-top: 30px;
+}
+
+.heroText {
+  margin-top: 40px;
+  margin-left: 25px;
+  position: absolute;
+}
+
+.heroText h1 {
+  width: 220px;
+  font-size: 24pt;
+  font-weight: 600;
+}
+
+.heroText input {
+  background-color: #0d6b68;
+  color: #fff;
+  border: 1px solid #000;
+  font-size: 12pt;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.hero img {
+  width: 250px;
+  margin-left: 120px;
+  border-radius: 10px;
+}
+
+.bottomInfo {
+  background-color: #d6d6d6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.card {
+  width: 30%;
+  padding: 20px;
+  font-size: 12pt;
+  text-align: center;
+}
+
+.card h4 {
+  font-weight: 400;
+}
+
+.card i {
+  font-size: 20pt;
+  margin-bottom: 10px;
+}
+
+.ourHistory {
+  margin-top: 50px;
+}
+
+.ourHistoryText {
+  width: 300px;
+  margin: 50px;
+  border-left: 2px solid #0d6b68;
+  padding-left: 10px;
+}
+
+.ourHistoryText h1 {
+  font-size: 22pt;
+}
+
+.ourHistoryText input {
+  padding: 10px;
+  background-color: #0d6b68;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.videoFake {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoFake img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.videoFake i {
+  position: absolute;
+  font-size: 24pt;
+}
