@@ -116,7 +116,7 @@ header {
 }
 
 .ourHistory {
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .ourHistoryText {
@@ -154,4 +154,191 @@ header {
 .videoFake i {
   position: absolute;
   font-size: 24pt;
+}
+
+.ourTeam {
+  margin: 80px 50px;
+}
+
+.teamText {
+  width: 300px;
+  border-left: 2px solid #0d6b68;
+  padding-left: 10px;
+}
+
+.teamText h1 {
+  font-size: 22pt;
+}
+
+.teamText input {
+  padding: 10px;
+  background-color: #0d6b68;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 6px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.ourTeam img {
+  width: 350px;
+  margin-left: -25px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.portfolioText {
+  border-left: 2px solid #0d6b68;
+  padding-left: 10px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.portfolioText h1 {
+  font-size: 22pt;
+}
+
+.portfolioText a {
+  color: #0d6b68;
+  border-left: 2px solid #104d10;
+  border-bottom: 2px solid #104d10;
+  padding: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  position: absolute;
+  margin-left: 160px;
+  margin-top: 300px;
+  font-size: 16pt;
+}
+
+.portfolioText i {
+  font-size: 16pt;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card img {
+  width: 160px;
+  border-radius: 10px;
+}
+
+.imgCover {
+  background: linear-gradient(360deg, rgba(13, 107, 104, .5), rgba(13, 107, 104, .5), rgba(196, 245, 196, .0));
+  width: 40%;
+  height: 10%;
+  margin-top: 110px;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.coverText {
+  color: #fff;
+  text-shadow: 1px 1px 2px #104d10;
+  margin-top: 20px;
+  margin-left: 10px;
+  text-align: left;
+  width: 120px;
+}
+
+.coverText h3 {
+  font-size: 12pt;
+}
+
+.coverText p {
+  font-size: 10pt;
+}
+
+.contact {
+  background-color: #d6d6d6;
+  margin-top: 50px;
+  padding: 30px 0;
+}
+
+.contact h1 {
+  font-size: 22pt;
+  width: 280px;
+  margin-left: 50px;
+  border-left: 2px solid #104d10;
+  padding: 10px;
+}
+
+.form {
+  padding: 30px;
+  margin-left: 50px;
+}
+
+.form input {
+  border: none;
+  padding: 10px;
+}
+
+.form input::placeholder {
+  color: #104d10;
+}
+
+.form input[type='button'] {
+  background-color: #0d6b68;
+  color: #fff;
+}
+
+footer {
+  background-color: #0d6b68;
+  margin-top: 50px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+}
+
+footer .logo {
+  color: #fff;
+}
+
+footer h4 {
+  position: absolute;
+  margin-left: 200px;
+  color: #fff;
+  font-size: 12pt;
+}
+
+footer .links {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+.social {
+  margin-right: 30px;
+}
+
+.socialItem {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+}
+
+.footer-menuItem {
+  list-style: none;
+  color: #fff;
+}
+
+footer p {
+  position: absolute;
+  background-color: #0d6b68;
+  color: #fff;
+  margin-top: 139px;
+  height: 30px;
+  width: 100%;
+  padding-top: 10px;
+  justify-content: center;
+  text-align: center;
+  margin-left: -20px;
+}
+
+footer p a {
+  color: #fff;
 }
