@@ -14,7 +14,6 @@ header {
   justify-content: space-between;
   padding: 10px;
   width: 100%;
-  /* align-items: center; */
 }
 
 .logo {
@@ -83,6 +82,7 @@ header {
   padding: 10px;
   border-radius: 5px;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .hero img {
@@ -97,6 +97,7 @@ header {
   justify-content: space-around;
   align-items: center;
   margin-top: 50px;
+  padding: 40px 0;
 }
 
 .card {
@@ -137,6 +138,7 @@ header {
   border: 1px solid #000;
   border-radius: 6px;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .videoFake {
@@ -178,6 +180,7 @@ header {
   border-radius: 6px;
   margin-top: 10px;
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .ourTeam img {
@@ -276,6 +279,10 @@ header {
   padding: 10px;
 }
 
+.form input:focus {
+  outline: none;
+}
+
 .form input::placeholder {
   color: #104d10;
 }
@@ -283,12 +290,12 @@ header {
 .form input[type='button'] {
   background-color: #0d6b68;
   color: #fff;
+  cursor: pointer;
 }
 
 footer {
   background-color: #0d6b68;
   margin-top: 50px;
-  width: 100%;
   padding: 20px;
   display: flex;
 }
@@ -341,4 +348,230 @@ footer p {
 
 footer p a {
   color: #fff;
+}
+
+@media screen and (min-width: 800px)  {
+  .menu {
+    margin-top: 90px;
+    width: 600px;
+    justify-content: space-around;
+  }
+  
+  .menuItem {
+    font-size: 12pt;
+  }
+
+  .hero img {
+    margin-left: 300px;
+    width: 400px;
+  }
+
+  .heroText {
+    margin-left: 140px;
+  }
+
+  .heroText h1 {
+    font-size: 36pt;
+    width: 260px;
+    margin-top: 30px;
+  }
+
+  .heroText input {
+    padding: 25px;
+    font-size: 15pt;
+    margin-top: 30px;
+  }
+
+  .ourHistory {
+    display: flex;
+  }
+
+  .ourHistoryText p {
+    font-size: 12pt;
+  }
+
+  .ourHistoryText input {
+    padding: 20px;
+    font-size: 12pt;
+    margin-top: 20px;
+  }
+
+  .videoFake img {
+    width: 400px;
+    margin-left: -40px;
+  }
+
+  .ourTeam {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 100px;
+    margin-bottom: 120px;
+  }
+
+  .teamText {
+    padding: 20px;
+    border-left: none;
+    border-right: 2px solid #0d6b68;
+  }
+
+  .teamText p {
+    font-size: 12pt;
+  }
+
+  .teamText input {
+    padding: 20px;
+    font-size: 12pt;
+    margin-top: 20px;
+  }
+
+  .portfolioText p {
+    font-size: 12pt;
+  }
+
+  .cardGrid {
+    display: flex;
+  }
+
+  .card img {
+    width: 220px;
+  }
+
+  .card .imgCover {
+    width: 27.1%;
+    margin-left: 6px;
+    margin-top: 150px;
+  }
+
+  .coverText {
+    margin-top: 30px;
+  }
+
+  .portfolioText a {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 550px;
+    border-left: none;
+    border-right: 2px solid #104d10;
+  }
+  
+  .contact {
+    display: flex;
+    padding: 30px;
+    margin: 100px 0;
+  }
+
+  .contact input {
+    padding: 15px;
+    margin-top: 20px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer h4 {
+    margin-left: 400px;
+  }
+
+  footer p {
+    margin-left: -40px;
+  }
+} 
+
+@media screen and (min-width: 1200px) {
+  .hero img {
+    margin-left: 500px;
+  }
+
+  .heroText h1 {
+    margin-left: 200px;
+  }
+
+  .heroText input {
+    font-size: 12pt;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 200px;
+  }
+
+  .bottomInfo {
+    position: absolute;
+    margin-left: 750px;
+    margin-top: -290px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+  }
+
+  .ourHistory {
+    justify-content: space-around;
+    margin-top: 180px;
+  }
+
+  .ourHistoryText p {
+    font-size: 13pt;
+    width: 400px;
+  }
+
+  .ourTeam {
+    justify-content: space-around;  
+    margin-top: 180px;
+  }
+  
+  .ourTeam img {
+    width: 400px;
+    margin-top: -10px;
+  }
+
+  .teamText h1 {
+    margin-left: -50px;
+  }
+
+  .teamText p {
+    margin-left: -50px;
+    font-size: 13pt;
+    width: 400px;
+  }
+
+  .teamText input {
+    margin-left: -50px;
+  }
+
+  .portfolioText {
+    margin-left: 100px;
+  }
+
+  .portfolioText a {
+    margin-left: 750px;
+  }
+
+  .card img {
+    width: 300px;
+  }
+
+  .card .imgCover {
+    width: 22.8%;
+    margin-left: 48px;
+    margin-top: 254px;
+    height: 15%;
+  }
+
+  .contact {
+    justify-content: space-around;
+  }
+
+  footer p {
+    margin: 140px 20px;
+  }
+
+  footer h4 {
+    margin-left: 590px;
+  }
+
+  footer .logo h1 {
+    margin-left: -240px;
+    border-left: 2px solid #fff;
+  }
 }
