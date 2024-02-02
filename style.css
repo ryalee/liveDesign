@@ -11,9 +11,6 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  width: 100%;
 }
 
 .logo {
@@ -30,8 +27,8 @@ header {
 .menu {
   display: flex;
   margin-top: 80px;
-  width: 410px;
-  margin-left: -140px;
+  width: 350px;
+  margin-left: -110px;
   padding: 10px;
 }
 
@@ -47,8 +44,8 @@ header {
 .iconsMenu {
   display: flex;
   position: absolute;
-  margin-left: -180px;
-  margin-top: 20px;
+  margin-top: -110px;
+  margin-left: 90px;
 }
 
 .iconItem {
@@ -480,6 +477,18 @@ footer p a {
 } 
 
 @media screen and (min-width: 1200px) {
+  .logo {
+    padding: 20px;
+  }
+
+  .menu {
+    margin-left: 250px;
+  }
+
+  .iconsMenu {
+    margin-left: 1000px;
+  }
+
   .hero img {
     margin-left: 500px;
   }
@@ -554,7 +563,7 @@ footer p a {
   .card .imgCover {
     width: 22.8%;
     margin-left: 48px;
-    margin-top: 254px;
+    margin-top: 251px;
     height: 15%;
   }
 
